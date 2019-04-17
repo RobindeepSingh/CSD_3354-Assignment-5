@@ -16,6 +16,7 @@ namespace ConsoleApp6
     }
     class GenerateList
     {
+        /
         const int LEN = 100;
         ArrayList ListQ;
         public void Run(int AddUpToNumber)
