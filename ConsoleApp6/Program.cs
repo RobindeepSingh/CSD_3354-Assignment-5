@@ -27,6 +27,7 @@ namespace ConsoleApp6
             this.findTwoNumbersThatAddUpTo(AddUpToNumber);
         }
     }
+    public void findTwoNumbersThatAddUpTo(int addUpToNumber)
 
 }
     
