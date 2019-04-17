@@ -12,6 +12,7 @@ namespace ConsoleApp6
         static void Main(string[] args)
         {
             new GenerateList().Run(57);
+            a.Run(57);
         }
     }
     class GenerateList
@@ -34,6 +35,7 @@ namespace ConsoleApp6
         }
         public void findTwoNumbersThatAddUpTo(int addUpToNumber)
         {
+
 
         }
     }
