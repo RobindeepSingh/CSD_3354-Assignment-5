@@ -26,13 +26,13 @@ namespace ConsoleApp6
             ListQ = new ArrayList();
             for (int i = 0; i < LEN; i++) { ListQ.Add(r.Next(100)); }
             this.findTwoNumbersThatAddUpTo(AddUpToNumber);
+            foreach (int i in ListQ)
+            {
+                Console.WriteLine(i);
+            }
+           
         }
-        foreach(int i in ListA)
-        {
-            Console.WriteLine(i);
-        }
-
-        private void findTwoNumbersThatAddUpTo(int addUpToNumber)
+        public void findTwoNumbersThatAddUpTo(int addUpToNumber)
         {
 
         }
