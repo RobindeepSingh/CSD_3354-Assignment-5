@@ -42,7 +42,9 @@ namespace ConsoleApp6
             int n2 = 2;
             for (int i = 0; i < LEN; i++)
             {
-                n1 = num1
+                n1 = num1;
+                n2 = num2;
+                Console.WriteLine(n1 + "=" n2 = n1 + n2)
             }
                 
         }
