@@ -12,7 +12,7 @@ namespace ConsoleApp6
         static void Main(string[] args)
         {
             new GenerateList().Run(57);
-            a.Run(57);
+           
         }
     }
     class GenerateList
@@ -25,30 +25,38 @@ namespace ConsoleApp6
             Random r = new Random();
 
             ListQ = new ArrayList();
-            for (int i = 0; i < LEN; i++) { ListQ.Add(r.Next(100)); }
-            this.findTwoNumbersThatAddUpTo(AddUpToNumber);
-            foreach (int i in ListQ)
+            for (int i = 0; i < LEN; i++)
             {
-                Console.WriteLine(i);
+                ListQ.Add(r.Next(100));
+                this.findTwoNumbersThatAddUpTo(AddUpToNumber);
+                break;
             }
+            
            
         }
-        public void findTwoNumbersThatAddUpTo(int addUpToNumber)
+        public void findTwoNumbersThatAddUpTo(int a)
         {
             Random r = new Random();
 
             ListQ = new ArrayList();
-            int n1 = 1;
-            int n2 = 2;
+            int e1 = 0;
+            int e2 = 0;
             for (int i = 0; i < LEN; i++)
             {
-                n1 = num1;
-                n2 = num2;
-                Console.WriteLine(n1 + "=" n2 = n1 + n2)
+                int w1 = ListQ.Add(r.Next(100));
+                int w2 = ListQ.Add(r.Next(100));
+                if (w1 + w2 == a)
+                {
+                    e1 = w1;
+                    e2 = w2;
+                    Console.WriteLine(e1 + " " + e2);
+                }
             }
-                
+
         }
+
     }
+  }
 
 
-}  
+
