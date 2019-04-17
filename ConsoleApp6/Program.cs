@@ -35,8 +35,16 @@ namespace ConsoleApp6
         }
         public void findTwoNumbersThatAddUpTo(int addUpToNumber)
         {
+            Random r = new Random();
 
-
+            ListQ = new ArrayList();
+            int n1 = 1;
+            int n2 = 2;
+            for (int i = 0; i < LEN; i++)
+            {
+                n1 = num1
+            }
+                
         }
     }
 
